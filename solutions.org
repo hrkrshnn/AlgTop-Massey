@@ -1,0 +1,25 @@
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+OPTIONS: num:nil toc:nil
+#+LATEX_HEADER: \usepackage[sc, osf]{mathpazo}
+#+LATEX_HEADER: \usepackage[euler-digits, small]{eulervm}
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \usepackage{mathrsfs}
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \usepackage[left = 2cm, right = 2cm, top = 2cm, bottom = 2cm]{geometry}
+#+LATEX_HEADER: \def\R{\mathbb{R}}
+#+LATEX_HEADER: \def\x{\mathbf{x}}
+#+LATEX_HEADER: \def\mob{\textup{M{\"o}bius}}
+#+LATEX_HEADER: \def\C{\mathbb{C}}
+#+LATEX_HEADER: \def\P{\mathbb{P}}
+#+LATEX_HEADER: \def\Cinf{C^{\infty}}
+#+LATEX_HEADER: \def\A{\mathscr{A}}
+#+LATEX_HEADER: \renewcommand{\theenumi}{(\alph{enumi})}
+#+LATEX_HEADER: \newcommand\sectionbreak{\clearpage}
+
+* Chapter 1
+** 2
+*** 2.1
+    I think that by "arc", the author is referring to path. (Spivak
+    uses arc to refer to one-one path.) In that case, this is easy.
+** 3
+   
