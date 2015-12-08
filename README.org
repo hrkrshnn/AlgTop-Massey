@@ -1,0 +1,3 @@
+Solutions to William Massey's A Basic Course in Algebraic Topology.
+
+*Warning*: I don't know what I'm talking about.
