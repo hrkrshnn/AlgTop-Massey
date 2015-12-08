@@ -47,4 +47,50 @@
     Suppose $f \cdot \bar{g} = \E_x$, then $f \cdot \bar{g} g = \E_x
     \cdot g \implies f \cdot \E_y = g \implies f = g$.
 ** 4
-   
+*** TODO 4.1
+*** 4.2
+    Recall that $X$ is Hausdorff if and only if the diagonal $\Delta =
+    \{x\times x \vert x \in X\}$ is closed.
+    
+    Given two maps $f, g \colon X \rightarrow Y$, then the set $A =
+    \{x \in X \vert f(x) = g(x)\}$ is closed if $Y$ is Hausdorff. This
+    can be proved by making use of the above observation, since $A =
+    (f \times g)^{-1} (\Delta)$.
+
+    Let $f\colon X \rightarrow X$ be a retraction mapping from $X$
+    onto $Z$ and $i\colon X \rightarrow X$ be the identity map. Then
+    the points where both these map are equal is clearly the set $Z$
+    which will become closed.
+*** TODO 4.3
+    
+*** 4.4
+    Suppose $A$ be a retract of $X$ and $r \colon X \rightarrow A$ be
+    the corresponding retraction. Then define a function $\phi \colon
+    X \times Y \rightarrow A \times Y$ by $\phi (x, y) = (r (x),
+    y)$. This function is clearly continuous and thus forms a
+    retraction mapping from $X \times Y$ onto $A \times Y$.
+
+    Suppose that there is a retraction $\phi \colon X \times Y
+    \rightarrow A \times Y$. Define a retraction $r \colon X \times A$
+    by first picking a point $y_0 \in Y$ and by making $r(x) = \pi_1
+    \circ \phi (x, y_0)$. Once again one can verify that this mapping
+    is a retraction.
+*** 4.5
+    This is easy. Compose the two retraction mappings to get the
+    required retraction.
+*** 4.6
+    Without loss of generality, one can assume that the $(n-1)$
+    dimensional sphere $S^{n-1} is the unit-sphere centered at the
+    origin and the point $x_0$ is the origin.
+
+    Let $X = \R^n - \{0\}$, then define the function $\phi \colon X
+    \times I \rightarrow X$ by
+
+    $$\phi (x, t) = (1 - t) x + t\cdot\frac{x}{\Vert x \Vert}.$$
+
+    One can verify that this is indeed the required deformation
+    retract.
+*** 4.7
+    The center circle.
+*** 4.8 
+    
