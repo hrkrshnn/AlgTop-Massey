@@ -45,7 +45,7 @@
     \E_x \in \pi (X, x)$.
 
     Suppose $f \cdot \bar{g} = \E_x$, then $f \cdot \bar{g} g = \E_x
-    \cdot g \implies f \cdot \E_y = g \implies f = g$.
+    \cdot g \implies f \cdot \E_y = g \implies f \sim g$.
 ** 4
 *** TODO 4.1
 *** 4.2
@@ -92,5 +92,15 @@
     retract.
 *** 4.7
     The center circle.
-*** 4.8 
-    
+*** TODO 4.8
+*** TODO 4.9
+*** 4.10
+    Suppose that $f_0$ and $f_1$ be any two path connecting $x$ and
+    $y$. Consider the path from $x$ to $x$ given by $\gamma = f_0
+    \cdot f_1^{-1}.$
+
+    Since the space is a deformation retract to a single point, the
+    fundamental group $\pi (X, x)$ is isomorphic to the trivial group
+    $\{e\}$, i.e., $\gamma$ is identity. This shows that $f_0$ and
+    $f_1$ are equivalent.
+*** TODO 4.11
