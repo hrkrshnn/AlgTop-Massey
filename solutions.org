@@ -104,3 +104,100 @@
     $\{e\}$, i.e., $\gamma$ is identity. This shows that $f_0$ and
     $f_1$ are equivalent.
 *** TODO 4.11
+** 5
+*** 5.1
+    Given a loop $f \colon I \rightarrow X$ based on $x_0$, we need to
+    prove that this belongs to the trivial class.
+
+    Suppose $f (I)$ is entirely contained in one of $U_i$, since $U_i$
+    is simply connected, the fact that $f$ belongs to trivial class is
+    obvious. We assume that $f(I)$ is contained is not completed
+    contained in a single $U_i$.
+
+    Define a class of open sets $V_i = f^{-1}(U_i)$. Since $[0, 1]$ is
+    compact and since $V_i$ is an open cover of $[0, 1]$, there exists
+    a real number, $\varepsilon$ (the Lebesgue number corresponding to
+    the open cover), such that any set whose diameter is less than
+    $\varepsilon$ is completely contained in one of $U_i$.
+
+    Thus we can find a sequence $0 = t_1 < t_2 < \cdots < t_n = 1$
+    such that the following conditions are satisfied for all $i$:
+
+    1. $f([t_i, t_{i+1}]) \subset U_j$ for all some $j$;
+       
+    2. $f([t_i, t_{i+1}])$ and $f([t_{i+1}, t_{i+2}])$ are not
+       entirely contained in same $U_j$ for some $j$.
+
+    This can be constructed in the following fashion: pick $t_i$ such
+    that the condition on diameter is satisfied. This guarantees the
+    first condition. If for consecutive intervals lies completely
+    inside a single $U_i$, simply merge the intervals to produce a
+    larger one; repeat this procedure until the second condition is
+    satisfied.
+
+    This basically implies that for every value of $i$, $f(t_i)$
+    belongs to the intersection of $U_j$ and $U_k$ for some value of
+    $j$ and $k$.
+
+    Let us denote the path component corresponding to $f$ as $\beta$
+    and the ones that correspond to the restriction of $f$ on the
+    sub intervals as $\beta_i$. It is easy to see that
+
+    $$\beta = \beta_1\cdot \beta_2 \cdot \cdots.$$
+
+    Since $f(t_i)$ will always belong to the intersection, we can
+    think of a path $\gamma_i$ that connects $f(t_i)$ and the point
+    $x_0$. Define the loop classes $\delta_i$ in the following manner:
+
+    $$\delta_1 = \beta_1 \gamma_1,$$
+    
+    $$\delta_i = \gamma_{i - 1}^{-1}\beta_i \gamma^{i} \textup{ for }
+    1 < i < n,$$
+    
+    $$\delta_n = \gamma_{n-1}^{-1} \beta_n.$$ (if $n$ is finite.)
+
+    It is easy to see that
+
+    $$\beta = \delta_1\cdot \delta_2 \cdots.$$
+
+    Observe that each $\delta_i$ is a loop at $x_0$ and lying entirely
+    inside $U_i$, i.e., trivial. We have shown that $f$ can be
+    decomposed as loops of trivial classes, i.e., $f$ belongs to the
+    trivial loop class. $\blacksquare$
+
+    *Special cases*
+
+    1. Let $X$ be a topological space and $U_1$, $U_2$ be two open
+       sets that cover $X$ that has at least one point in
+       common. Suppose these open sets are simply connected and if
+       $U_1 \cap U_2$ is an arc wise connected space, then $X$ is
+       simply connected.
+       
+    2. Let $\{U_i\}$ be a nonempty open cover of $X$ such that $U_i
+       \subset U_j$ whenever $i < j$. Suppose each of $U_i$ are arc
+       connected and simply connected. Then the space $X$ is simply
+       connected.
+       
+*** 5.2
+    We make use of the Stereographic projection of $S^n$. Let $p$ and
+    $-p$ represent two antipodal points of $S^n$, then there exists
+    two homeomorphisms $f\colon S^n - \{p\} \rightarrow \R^n$ $g\colon
+    S^n - \{-p\} \rightarrow \R^n$. This shows that the open subsets
+    $S^n - \{p\}$ and $S^n - \{-p\}$, which has a arc connected
+    intersection whenever $n \ge 2$ (this is not true for $n = 1$),
+    are also simply connected. From previous exercise, we see that
+    $S^n$ is simply connected.
+    
+*** 5.3
+    $R^2 - \{0\}$ is not simply connected while $R^n - \{0\}$ is
+    simply connected for $n > 2$.
+
+*** 5.4
+    A homeomorphism cannot map a point of $S^1$ to a point in the
+    interior of $E^2$. This is because, there is no neighborhood of a
+    point on the boundary that is homeomorphic $\R^2$ while there are
+    neighborhoods of $E^2$ that are homeomorphic to $\R^2$.
+    
+    Alternatively, one can see that deleted neighborhoods of a point
+    on the boundary are simply connected while this is not the case
+    with a point on the interior of $D^2$.
