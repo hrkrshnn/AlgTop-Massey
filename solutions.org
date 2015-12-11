@@ -7,6 +7,7 @@
 #+LATEX_HEADER: \usepackage{titlesec}
 #+LATEX_HEADER: \usepackage[left = 2cm, right = 2cm, top = 2cm, bottom = 2cm]{geometry}
 #+LATEX_HEADER: \def\R{\mathbb{R}}
+#+LATEX_HEADER: \def\Z{\mathbb{Z}}
 #+LATEX_HEADER: \def\x{\mathbf{x}}
 #+LATEX_HEADER: \def\mob{\textup{M{\"o}bius}}
 #+LATEX_HEADER: \def\C{\mathbb{C}}
@@ -201,3 +202,17 @@
     Alternatively, one can see that deleted neighborhoods of a point
     on the boundary are simply connected while this is not the case
     with a point on the interior of $D^2$.
+
+** 7
+*** 7.1
+    A torus is $S^1 \times S^1$, thus $\pi (S^1 \times S^1) = \Z
+    \times \Z$.
+*** 7.2
+    Consider the retract $r\colon S^1 \times S^1 \rightarrow S^1
+    \times \{p\}$ defined by $r(x, y) = (x, p)$. This is clearly, a
+    continuous map. 
+    
+    Recall that, if $A$ is a deformation retract of $X$, then the
+    inclusion map induces an isomorphism of $\pi (A, a)$ onto $\pi (X,
+    a)$ for any $a \in A$. Observe that the group $\Z \times \Z$ is
+    not isomorphic to $\Z$ (the first one is cyclic.)
