@@ -238,3 +238,11 @@
     Since $F$ is Abelian, here is a unique homomorphism between $F'$
     and $F$ that makes the diagram commutative. Clearly identity is the
     unique homomorphism, thus $F' = F$.
+    
+*** 3.2
+    
+    We proceed similarly Corollary 3.5. If $F$ and $F'$ are
+    isomorphic, then $F/F^n$ and $F'/(F')^n$ should also be
+    isomorphic. But the former is finite, while the latter is infinite
+    (the latter can be thought of as the weak product of infinitely
+    infinitely many $\Z_n$, which is clearly an infinite group.)
