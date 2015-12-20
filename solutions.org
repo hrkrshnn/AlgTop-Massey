@@ -12,6 +12,7 @@
 #+latex_header: \subsectionfont{\centering}
 #+LATEX_HEADER: \def\R{\mathbb{R}}
 #+LATEX_HEADER: \def\Z{\mathbb{Z}}
+#+LATEX_HEADER: \def\Q{\mathbb{Q}}
 #+LATEX_HEADER: \def\x{\mathbf{x}}
 #+LATEX_HEADER: \def\mob{\textup{M{\"o}bius}}
 #+LATEX_HEADER: \def\C{\mathbb{C}}
@@ -22,7 +23,7 @@
 #+LATEX_HEADER: \renewcommand{\theenumi}{(\alph{enumi})}
 #+LATEX_HEADER: \newcommand\sectionbreak{\clearpage}
 
-* Chapter 1
+* Chapter 2
 ** 2
 *** 2.1
     I think that by "arc", the author is referring to path. (Spivak
@@ -102,7 +103,7 @@
 *** 4.10
     Suppose that $f_0$ and $f_1$ be any two path connecting $x$ and
     $y$. Consider the path from $x$ to $x$ given by $\gamma = f_0
-    \cdot f_1^{-1}.$
+    \cdot f_1^{-1}$.
 
     Since the space is a deformation retract to a single point, the
     fundamental group $\pi (X, x)$ is isomorphic to the trivial group
@@ -220,7 +221,7 @@
     inclusion map induces an isomorphism of $\pi (A, a)$ onto $\pi (X,
     a)$ for any $a \in A$. Observe that the group $\Z \times \Z$ is
     not isomorphic to $\Z$ (the first one is cyclic.)
-* Chapter 2
+* Chapter 3
 ** 3
 *** 3.1
 
@@ -246,3 +247,26 @@
     isomorphic. But the former is finite, while the latter is infinite
     (the latter can be thought of as the weak product of infinitely
     infinitely many $\Z_n$, which is clearly an infinite group.)
+
+*** 3.3
+
+   Reference: [[http://www.math.uni-duesseldorf.de/~schroeer/publications_pdf/infinite_product-1.pdf][Baer's Result: The infinite product of integers has no
+   basis]].
+
+   An example is the group $\Q$ under addition. This is clearly an
+   Abelian group. Assume that this is free and let $S$ be a basis for
+   $\Q$.
+
+   Let $1/1$ be represented as $1/1 = n_1 s_{\alpha_1} + \cdots + n_k
+   s_{\alpha_k}$ where $n_1, \cdots, n_k$ are integers and WLOG $n_1
+   \neq 0$.
+
+   Let $n$ be an integer that does not divide $n_1$. The number $1/n$
+   has the representation $1/n = m_1s_{\beta_1} + \cdots + m_j
+   s_{\beta_j}$. This implies that $nm_1s_{\beta_1} + \cdots + nm_j
+   s_{\beta_j} = n_1 s_{\alpha_1} + \cdots + n_ks_{\alpha_{k}}$, which
+   is a contradiction.
+
+*** TODO 3.4
+
+*** 3.5
