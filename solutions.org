@@ -20,6 +20,7 @@
 #+LATEX_HEADER: \def\Cinf{C^{\infty}}
 #+LATEX_HEADER: \def\A{\mathscr{A}}
 #+LATEX_HEADER: \def\E{\mathscr{E}}
+#+LATEX_HEADER: \def\bs{\textforwardslash}
 #+LATEX_HEADER: \renewcommand{\theenumi}{(\alph{enumi})}
 #+LATEX_HEADER: \newcommand\sectionbreak{\clearpage}
 
@@ -30,7 +31,7 @@
     uses arc to refer to one-one path.) In that case, this is easy.
 ** 3
 *** 3.1
-    The center of a group $G$ is the set of all elements $z$ such that
+    The center of a group $G$ is the set of all elements $z$ such2 that
     $z \cdot g = g \cdot z$.
 
     If two path classes gives rises to the same isomorphism if and
@@ -222,6 +223,8 @@
     a)$ for any $a \in A$. Observe that the group $\Z \times \Z$ is
     not isomorphic to $\Z$ (the first one is cyclic.)
 * Chapter 3
+  (Skipped through most of the exercises.)
+  
 ** 3
 *** 3.1
 
@@ -267,6 +270,44 @@
    s_{\beta_j} = n_1 s_{\alpha_1} + \cdots + n_ks_{\alpha_{k}}$, which
    is a contradiction.
 
-*** TODO 3.4
+*** 3.4
 
-*** 3.5
+    The split is $\Z_{36} \times \Z_{2}$. 
+    
+*** TODO 3.5
+
+** 4
+*** TODO 4.1
+
+    Suppose $x_1$ and $x_2$ are elements belonging to two different
+    groups. Then $x_1x_2$ and $x_2x_1$ are elements that are not
+    equal, since $x_1x_2x_1x_2 \neq 1$. These elements are of infinite
+    order. To show that the center contains only identity, given an
+    arbitrary element $y$, let $y_1 \in G_{y_1}$ denote the first
+    element of the word $y$ and $y_2$ denote an element other than
+    unity in and not contained in $G_{y_1}$. Clearly $yy_2 \neq y_2y$.
+
+    (TODO: Need to improve the reasons.)
+** 5
+*** 5.1
+
+    This follows from Exercise 4.1 (basically says that the free
+    product of a collection of groups, each containing more than one
+    element is not Abelian.)
+    
+*** 5.1 
+
+    Again, this follows from Exercise 4.1
+
+*** TODO 5.3
+
+*** 5.4
+
+    If $S$ if finite and $S'$ be an infinite set, if $F$ and $F'$ are
+    isomorphic, then so are $F/[F, F]$ and $F'/[F', F']$. But $F/[F,
+    F]$ and $F'/[F', F']$ are free Abelian groups with "generating
+    sets" of different cardinality and hence non-isomorphic.
+
+*** 5.5
+
+    
