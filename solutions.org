@@ -1,28 +1,29 @@
-#+LATEX_CLASS_OPTIONS: [12pt]
-#+OPTIONS: num:nil toc:nil
+#+latex_class_options: [12pt]
+#+options: num:nil toc:nil
 #+latex_header: \usepackage{lmodern}
 #+latex_header: \usepackage[T1]{fontenc}
 #+latex_header: \usepackage{sectsty}
 #+latex_header: \usepackage{amscd}
-#+LATEX_HEADER: \usepackage{parskip}
-#+LATEX_HEADER: \usepackage{mathrsfs}
-#+LATEX_HEADER: \usepackage{titlesec}
-#+LATEX_HEADER: \usepackage[left = 2cm, right = 2cm, top = 2cm, bottom = 2cm]{geometry}
+#+latex_header: \usepackage{parskip}
+#+latex_header: \usepackage{mathrsfs}
+#+latex_header: \usepackage{titlesec}
+#+latex_header: \usepackage[left = 2cm, right = 2cm, top = 2cm, bottom = 2cm]{geometry}
 #+latex_header: \sectionfont{\centering}
 #+latex_header: \subsectionfont{\centering}
-#+LATEX_HEADER: \def\R{\mathbb{R}}
-#+LATEX_HEADER: \def\Z{\mathbb{Z}}
-#+LATEX_HEADER: \def\Q{\mathbb{Q}}
-#+LATEX_HEADER: \def\x{\mathbf{x}}
-#+LATEX_HEADER: \def\mob{\textup{M{\"o}bius}}
-#+LATEX_HEADER: \def\C{\mathbb{C}}
-#+LATEX_HEADER: \def\P{\mathbb{P}}
-#+LATEX_HEADER: \def\Cinf{C^{\infty}}
-#+LATEX_HEADER: \def\A{\mathscr{A}}
-#+LATEX_HEADER: \def\E{\mathscr{E}}
-#+LATEX_HEADER: \def\bs{\textforwardslash}
-#+LATEX_HEADER: \renewcommand{\theenumi}{(\alph{enumi})}
-#+LATEX_HEADER: \newcommand\sectionbreak{\clearpage}
+#+latex_header: \def\R{\mathbb{R}}
+#+latex_header: \def\Z{\mathbb{Z}}
+#+latex_header: \def\Q{\mathbb{Q}}
+#+latex_header: \def\x{\mathbf{x}}
+#+latex_header: \def\mob{\textup{M{\"o}bius}}
+#+latex_header: \def\C{\mathbb{C}}
+#+latex_header: \def\P{\mathbb{P}}
+#+latex_header: \def\Cinf{C^{\infty}}
+#+latex_header: \def\A{\mathscr{A}}
+#+latex_header: \def\E{\mathscr{E}}
+#+latex_header: \def\bs{\textforwardslash}
+#+latex_header: \def\Im{\operatorname{Im}}
+#+latex_header: \renewcommand{\theenumi}{(\alph{enumi})}
+#+latex_header: \newcommand\sectionbreak{\clearpage}
 
 * Chapter 2
 ** 2
@@ -68,8 +69,19 @@
     onto $Z$ and $i\colon X \rightarrow X$ be the identity map. Then
     the points where both these map are equal is clearly the set $Z$
     which will become closed.
-*** TODO 4.3
+*** 4.3
+
+    We need to show that $\pi(X) = \Im {i_{*}} \times \ker
+    {r_{*}}$. Since $\Im{i_{*}} \approx \pi(A)/\ker{i_{*}}$ and
+    $\ker{r_{*}} \approx \pi(X) / \Im{r_{*}}$, it is enough to show that
+    $\pi(X) \approx \pi(A) \times \pi(X/A)$.
+
+    The last result follows from the fact that $\pi (A)$ is a normal
+    subgroup of $\pi(X)$ and observing that the map $(n, g) \mapsto
+    ng$ is an isomorphism between $N \times (G / N)$ and $G$ (here $G$
+    is an arbitrary group and $N$ is a normal subgroup of $G$.)
     
+
 *** 4.4
     Suppose $A$ be a retract of $X$ and $r \colon X \rightarrow A$ be
     the corresponding retraction. Then define a function $\phi \colon
@@ -87,7 +99,7 @@
     required retraction.
 *** 4.6
     Without loss of generality, one can assume that the $(n-1)$
-    dimensional sphere $S^{n-1} is the unit-sphere centered at the
+    dimensional sphere $S^{n-1}$ is the unit-sphere centered at the
     origin and the point $x_0$ is the origin.
 
     Let $X = \R^n - \{0\}$, then define the function $\phi \colon X
@@ -249,7 +261,7 @@
     isomorphic, then $F/F^n$ and $F'/(F')^n$ should also be
     isomorphic. But the former is finite, while the latter is infinite
     (the latter can be thought of as the weak product of infinitely
-    infinitely many $\Z_n$, which is clearly an infinite group.)
+    many $\Z_n$, which is clearly an infinite group.)
 
 *** 3.3
 
@@ -270,6 +282,10 @@
    s_{\beta_j} = n_1 s_{\alpha_1} + \cdots + n_ks_{\alpha_{k}}$, which
    is a contradiction.
 
+   The reference paper proves that the direct product of countable
+   number of $\Z$ does not have a basis, and hence cannot be a free
+   Abelian group. 
+
 *** 3.4
 
     The split is $\Z_{36} \times \Z_{2}$. 
@@ -277,17 +293,33 @@
 *** TODO 3.5
 
 ** 4
-*** TODO 4.1
+*** 4.1
 
     Suppose $x_1$ and $x_2$ are elements belonging to two different
     groups. Then $x_1x_2$ and $x_2x_1$ are elements that are not
-    equal, since $x_1x_2x_1x_2 \neq 1$. These elements are of infinite
-    order. To show that the center contains only identity, given an
-    arbitrary element $y$, let $y_1 \in G_{y_1}$ denote the first
-    element of the word $y$ and $y_2$ denote an element other than
-    unity in and not contained in $G_{y_1}$. Clearly $yy_2 \neq y_2y$.
+    equal, since $x_1x_2x_1x_2 \neq 1$; thus the free product results
+    in a non Abelian group.
 
-    (TODO: Need to improve the reasons.)
+    Notice that $x_1x_2x_1x_2\cdots x_1x_2$ ($n$ times) is a reduced
+    word. If this is equal to the identity element, then from
+    uniqueness of the representation of elements of the direct
+    product, one can see that all of them has to be equal to identity,
+    which is a contradiction. This proves that the element $x_1x_2$ is
+    of infinite order.
+
+    To show that the center contains only identity, given an arbitrary
+    element $y$, let $y_1 \in G_{y_1}$ denote the first element of the
+    word $y$ and $y_2$ denote an element other than unity in and not
+    contained in $G_{y_1}$. Clearly $yy_2 \neq y_2y$ (using the
+    uniqueness of the reduced word representation.)
+    
+*** TODO 4.2
+
+    We probably have to make use of the explicit construction. I'm
+    guessing that one has to prove that each $G'_i$, when represented
+    as a subgroup of the permutation group, will be the the subgroup
+    of the representation of $G_i$. 
+    
 ** 5
 *** 5.1
 
@@ -310,4 +342,3 @@
 
 *** 5.5
 
-    
