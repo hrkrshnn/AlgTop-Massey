@@ -81,7 +81,6 @@
     ng$ is an isomorphism between $N \times (G / N)$ and $G$ (here $G$
     is an arbitrary group and $N$ is a normal subgroup of $G$.)
     
-
 *** 4.4
     Suppose $A$ be a retract of $X$ and $r \colon X \rightarrow A$ be
     the corresponding retraction. Then define a function $\phi \colon
@@ -313,13 +312,37 @@
     contained in $G_{y_1}$. Clearly $yy_2 \neq y_2y$ (using the
     uniqueness of the reduced word representation.)
     
-*** TODO 4.2
+*** 4.2
 
-    We probably have to make use of the explicit construction. I'm
-    guessing that one has to prove that each $G'_i$, when represented
-    as a subgroup of the permutation group, will be the the subgroup
-    of the representation of $G_i$. 
+    Let $G$ denote the free product of $\{G_i\}$ and $G'$ denote the
+    free product of $\{G'_i\}$. Let $\varphi_i$ denote the inclusion
+    homomorphism between $G_i$ and $G$ and $\varphi_i'$ denote the
+    inclusion homomorphism between $G_i'$ and $G'$.
+
+    Since $\varphi_i$ is also a homomorphism between $G'_i$ and $G$,
+    there exists a unique homomorphism $k\colon G' \rightarrow G$ such
+    that $k \circ \varphi'_i = \varphi_i$. It is enough to show that
+    the kernel of $k$ is trivial. This follows from the fact that
+    $\varphi_i$ is a monomorphism for all values of $i$. 
+
+*** 4.3
+
+    Since $\varphi'_i \circ f_i \colon G_i \rightarrow G'$ is a
+    homomorphism, we observe that there is a unique homomorphism
+    $f\colon G \rightarrow G'$ such that $f \circ \varphi_i =
+    \varphi'_i \circ f_i$. This fact makes the diagram (given in the
+    problem) commutative.
+
+    Suppose each $f_i$ be a monomorphism, then $f$ is also a
+    monomorphism. Similarly, one can show that $f$ is an epimorphism
+    if each $f_i$ is an epimorphism (making use of the fact that every
+    element of the free product is equal to a finite product of
+    elements of the corresponding family.)
+
+*** 4.4
+
     
+
 ** 5
 *** 5.1
 
