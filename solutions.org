@@ -341,8 +341,6 @@
 
 *** 4.4
 
-    
-
 ** 5
 *** 5.1
 
@@ -350,7 +348,7 @@
     product of a collection of groups, each containing more than one
     element is not Abelian.)
     
-*** 5.1 
+*** 5.2
 
     Again, this follows from Exercise 4.1
 
