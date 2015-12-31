@@ -363,3 +363,17 @@
 
 *** 5.5
 
+* Chapter 4
+** 3
+*** 3.1
+
+    First observe that no two $V_i$ and $V_j$ is a proper subset of
+    the other. Thus the only possibility of $\varphi_{\lambda \mu}$ is
+    the inclusion homomorphism between $W$ and $V_i$. Let us denote
+    this by $\varphi_i \colon \pi (W) \rightarrow \pi (V_i)$.
+
+    The exercise immediately follows from theorem 2.2.
+    
+*** 3.2
+
+    
