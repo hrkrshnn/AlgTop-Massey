@@ -26,6 +26,7 @@
 #+latex_header: \newcommand\sectionbreak{\clearpage}
 
 * Chapter 2
+  
 ** 2
 *** 2.1
     I think that by "arc", the author is referring to path. (Spivak
@@ -364,7 +365,9 @@
 *** 5.5
 
 * Chapter 4
+  
 ** 3
+   
 *** 3.1
 
     First observe that no two $V_i$ and $V_j$ is a proper subset of
@@ -376,4 +379,19 @@
     
 *** 3.2
 
+** 4
+
+*** TODO 4.1
+    1. Since $\varphi_2$ is an isomorphism and onto; we have a
+       homomorphism $\varphi \colon \pi(V) \rightarrow \pi(U) =
+       \varphi_1 \circ \varphi_2^{-1}$. Apply the hypothesis of
+       Theorem 2.1 to $H = \pi(U)$ and maps $\textup{id}, \varphi,
+       \varphi_1$, we see that there is a unique homomorphism
+       $\sigma\colon \pi(X) \rightarrow \pi(U)$ such that $\sigma
+       \circ \psi_1 = \textup{id}$. The one-one-ness of $\psi_1$ is
+       immediate.
+       
+
+    2. 
     
+   
