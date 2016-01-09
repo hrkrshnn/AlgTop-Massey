@@ -235,8 +235,7 @@
     a)$ for any $a \in A$. Observe that the group $\Z \times \Z$ is
     not isomorphic to $\Z$ (the first one is cyclic.)
 * Chapter 3
-  (Skipped through most of the exercises.)
-  
+
 ** 3
 *** 3.1
 
@@ -293,6 +292,7 @@
 *** TODO 3.5
 
 ** 4
+   
 *** 4.1
 
     Suppose $x_1$ and $x_2$ are elements belonging to two different
@@ -342,7 +342,9 @@
 
 *** 4.4
 
+
 ** 5
+   
 *** 5.1
 
     This follows from Exercise 4.1 (basically says that the free
@@ -378,9 +380,35 @@
     The exercise immediately follows from theorem 2.2.
     
 *** 3.2
+    For every $i \in I$, let $a_i$ be a point in $A_i$ that is not
+    equal to $x_0$. Let $B_i$ denote the set $A_i - \{a_i\}$; this set
+    is open relative to $A_i$. Let us denote $A_i \cap_{j \neq i} B_i$
+    by $C_i$; $C_i$ is open in $X$ and such that it is deformation
+    retract to $A_i$. Let $W$ be the set $\cap B_i$; $W$ is open in $X$.
+
+    Observe that $X = W \cap_{i}A_i$. This exercise now follows from
+    exercise 3.1.
+
+    (Refer to Example 1.21 in Hatcher.)
+
+*** 3.3
+    Shrinking wedge of circles is an example!
+
+    Refer to example 1.25 in Hatcher.
+
+*** 3.4
+    The space $Y$ can be deformed into a countable wedge sum of
+    circles. The fundamental group of this space is the free group on
+    a countable space.
+
+*** 3.5
+    If we remove an 8-curve from a torus, we get an open set in Torus,
+    which can be deformed to a point. From exercise 3.1, it is easy to
+    see that the fundamental group of $X$ the Free product of $\Z
+    \times \Z$ and $\Z \times \Z$.
 
 ** 4
-
+   
 *** TODO 4.1
     1. Since $\varphi_2$ is an isomorphism and onto; we have a
        homomorphism $\varphi \colon \pi(V) \rightarrow \pi(U) =
