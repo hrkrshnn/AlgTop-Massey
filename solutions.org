@@ -438,4 +438,30 @@ arc components of $U$ are open. Let $V$ be the arc component of $U$
 that contains $x$. It is seen that this neighborhood $V$ satisfies the
 required conditions for (d).
 
+*** 2.2
+I think that one can demonstrate that if $f$ is a local Homeomorphism,
+then, for every subset $A$ of $X$, $f\vert_A$ is also a local
+Homeomorphism.
 
+*** 2.3
+Suppose $A = f^{-1}(\{y\})$ be an infinite set. Corresponding to each
+point $x \in A$, there is an open set $U_x$ such that $f$ restricted
+over $U_x$ is a homeomorphism. Notice that $U_x$ cannot have points in
+$A$ other than $x$. For points $x'$ of $X$ that are not in $A$,
+consider $U_{x'}$ to be its neighborhood such that $f$ can be
+restricted to a homeomorphism. Again this neighborhood cannot contain
+more than two points of $A$. Now $\{U_{x}\} \cap \{U_{x'}\}$ forms a
+covering of $X$. If it has finite sub-cover, we have an obvious
+contradiction.
+
+Suppose $Y$ is a connected Hausdorff space, let $A$ denote the set of
+all $y$ such that $f^{-1}(\{y\})$ is non-empty. Since $A$ is
+non-empty, to prove the $A = Y$, it is enough to show that $A$ is both
+open and closed.
+
+Observe that $f$ is an open mapping, open-ness of $A$ follows from
+this. Note that $A = f(X)$, since $X$ is compact $A$ is also compact
+subset of $Y$, the closed-ness of $A$ follows from the fact that the
+space $Y$ is Hausdorff.
+
+*** TODO 2.4
