@@ -20,8 +20,10 @@
 #+latex_header: \def\Cinf{C^{\infty}}
 #+latex_header: \def\A{\mathscr{A}}
 #+latex_header: \def\E{\mathscr{E}}
+#+latex_header: \def\tX{\tilde{X}}
 #+latex_header: \def\bs{\textforwardslash}
 #+latex_header: \def\Im{\operatorname{Im}}
+#+latex_header: \def\P{\mathbb{P}}
 #+latex_header: \renewcommand{\theenumi}{(\alph{enumi})}
 #+latex_header: \newcommand\sectionbreak{\clearpage}
 
@@ -465,3 +467,24 @@ subset of $Y$, the closed-ness of $A$ follows from the fact that the
 space $Y$ is Hausdorff.
 
 *** TODO 2.4
+
+** 6
+
+*** 6.1
+Consider the universal cover $(X, \text{id})$ of $X$ and the cover
+$(\tilde{X}, p)$, let $\varphi$ be the homomorphism between $X$ and
+$\tX$, i.e., $p \circ \varphi = \text{id}$. The onto-ness of $p$ is
+immediate.
+
+*** 6.2
+1. $S^1$ has the fundamental group $\Z$, the subgroups of $\Z$ are of
+   the form $n\Z$, and since the group is Abelian, the conjugacy class
+   of a subgroup is the singleton set the subgroup.
+
+   For $n = 0$, consider the cover $(\R, t \mapsto (\cos t, \sin
+   t)$. For other values of $n$, consider the cover $(S^1, \theta
+   \mapsto n\theta)$. It is easily seen that these covering spaces
+   determines all the covering spaces of $S^1$ upto isomorphism.
+
+2. 
+
