@@ -481,10 +481,17 @@ immediate.
    the form $n\Z$, and since the group is Abelian, the conjugacy class
    of a subgroup is the singleton set the subgroup.
 
-   For $n = 0$, consider the cover $(\R, t \mapsto (\cos t, \sin
-   t)$. For other values of $n$, consider the cover $(S^1, \theta
-   \mapsto n\theta)$. It is easily seen that these covering spaces
-   determines all the covering spaces of $S^1$ upto isomorphism.
+   For $n = 0$, consider the covering space $(\R, t \mapsto (\cos t,
+   \sin t))$. For other values of $n$, consider the cover $(S^1,
+   \theta \mapsto n\theta)$. It is easily seen that these covering
+   spaces determines all the covering spaces of $S^1$ upto
+   isomorphism.
 
-2. 
+2. The fundamental group of the projective plane is $\Z_{2} = \{0,
+   1\}$. There are only trivial subgroups. $(S^2, p \mapsto [p])$, and
+   $(\P^2, [p] \mapsto [p])$ determines all covering spaces upto
+   isomorphism.
 
+3. 
+
+   
