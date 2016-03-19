@@ -492,6 +492,25 @@ immediate.
    $(\P^2, [p] \mapsto [p])$ determines all covering spaces upto
    isomorphism.
 
-3. 
+3.
 
-   
+*** 6.5
+
+** 7
+
+*** 7.2
+1. Example 2.2. The covering space $S^1$ where $S^1$ wraps around
+   $S^1$, $n$ times. The group of Automorphisms will be $\Z_n$.
+
+2. Example 2.4.
+
+** 8
+
+*** 8.1
+Let $G=\{\varphi_1, \cdots, \varphi_n\}.$ Let $y\in Y$, define $y_i =
+\varphi_i(y)$. For each $y_i$, let $V_i$ be a neighborhood of $y_i$
+that is disjoint from all other $y_j$. Define $U_i =
+\varphi_{i}(V_i)$, then $\cap U_i$ is a neighborhood of $y$ such that
+$\varphi_i(U)$ is disjoint (pair-wise.)
+
+*** 8.2
