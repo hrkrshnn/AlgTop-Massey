@@ -514,3 +514,13 @@ that is disjoint from all other $y_j$. Define $U_i =
 $\varphi_i(U)$ is disjoint (pair-wise.)
 
 *** 8.2
+
+** 9
+
+*** 9.2
+Suppose $f$ is a continuous $1-1$ map between $\R^{n+1}$ and $\R^{n}$,
+then define $g\colon \R^{n+1}-\{0\}\rightarrow S^{n-1}$ by $g(x) =
+\frac{f(x)-f(0)}{\Vert f(x) - f(0)\Vert}.$ 
+
+Since the space $\R^{n+1}-\{0\}$ and $S^{n}$ are homeomorphic (the
+stereographic projection.)
