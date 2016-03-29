@@ -516,11 +516,18 @@ $\varphi_i(U)$ is disjoint (pair-wise.)
 *** 8.2
 
 ** 9
+*** 9.1
+From a previous theorem, it is clear that quotient maps $p\colon X
+\rightarrow X/G$ and $q\colon Y \rightarrow Y/G$ are regular covering
+spaces, and that $A(X, p) = G = A(Y, q)$.
+
+Observe that $A(X, G) = \pi(X/G)/p_{*}(\pi(X)) =
+\pi(Y/G)/q_{*}(\pi(Y))$.
 
 *** 9.2
-Suppose $f$ is a continuous $1-1$ map between $\R^{n+1}$ and $\R^{n}$,
-then define $g\colon \R^{n+1}-\{0\}\rightarrow S^{n-1}$ by $g(x) =
-\frac{f(x)-f(0)}{\Vert f(x) - f(0)\Vert}.$ 
+# Suppose $f$ is a continuous $1-1$ map between $\R^{n+1}$ and $\R^{n}$,
+# then define $g\colon \R^{n+1}-\{0\}\rightarrow S^{n-1}$ by $g(x) =
+# \frac{f(x)-f(0)}{\Vert f(x) - f(0)\Vert}.$ 
 
-Since the space $\R^{n+1}-\{0\}$ and $S^{n}$ are homeomorphic (the
-stereographic projection.)
+# Since the space $\R^{n+1}-\{0\}$ and $S^{n}$ are homeomorphic (the
+# stereographic projection.)
